@@ -1,0 +1,14 @@
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\bin\Debug\netstandard2.0\ConverterValutes.deps.json
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\bin\Debug\netstandard2.0\ConverterValutes.dll
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\bin\Debug\netstandard2.0\ref\ConverterValutes.dll
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\bin\Debug\netstandard2.0\ConverterValutes.pdb
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ConverterValutes.csprojAssemblyReference.cache
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ConverterValutes.AssemblyInfoInputs.cache
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ConverterValutes.AssemblyInfo.cs
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ConverterValutes.csproj.CoreCompileInputs.cache
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ConverterValutes.dll
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ref\ConverterValutes.dll
+C:\Projects\ConvertorValute-master\ConverterValutes\ConverterValutes\obj\Debug\netstandard2.0\ConverterValutes.pdb

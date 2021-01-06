@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConverterValutes.MainPage">
+
+    <StackLayout>
+
+        <StackLayout Margin="100,70">
+            <Label x:Name="label" Text="Выберите дату" FontSize="Medium" />
+            <DatePicker Format="D" Date="{Binding SelectDate}">
+            </DatePicker>
+        </StackLayout>
+        
+        <StackLayout Margin="70,20"
+                     Orientation="Horizontal">
+            <Label Text="Актуальный курс на:"
+                   HorizontalOptions="End"/>
+            <Label Text="{Binding Date}"
+                   HorizontalOptions="End"
+                   TextColor="Red"/>
+        </StackLayout>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal" Margin="50,0">
+                <StackLayout>
+                    <Label Text="Выберите валюту"/>
+                    <Picker SelectedItem="{Binding ResultValuta}"
+                            ItemsSource="{Binding NameValutas}"
+                            ItemDisplayBinding="{Binding CharCode}" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Выберите валюту"/>
+                    <Picker SelectedItem="{Binding SourceValuta}"
+                            ItemsSource="{Binding NameValutas}"
+                            ItemDisplayBinding="{Binding CharCode}" />
+
+                </StackLayout>
+                
+            </StackLayout>
+        </Frame>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal" Margin="50,40">
+                <StackLayout WidthRequest="120">
+                    <Entry Placeholder="Номинал" 
+                           HorizontalTextAlignment="Center"
+                           x:Name="Input"
+                           Text="{Binding Input}"
+                           VerticalOptions="EndAndExpand"/>
+                </StackLayout>
+                <StackLayout WidthRequest="120">
+                    <Entry Placeholder="Номинал" 
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="EndAndExpand"
+                           x:Name="Result"
+                           Text="{Binding Result}"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>
